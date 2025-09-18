@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f2f9f2;
+}
+
+header {
+  background: linear-gradient(to right, green, red);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 2rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: green;
+  font-weight: bold;
+}
+
+#my-form {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 2px solid green;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#my-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#my-form input[type='text'],
+#my-form input[type='number'],
+#my-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  background: red;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: darkred;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.list-title {
+  margin-top: 2rem;
+  text-align: center;
+  color: darkgreen;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 12px;
+  background: #fff;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #222;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
